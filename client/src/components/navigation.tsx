@@ -30,7 +30,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <Link to="/" aria-label="Home">
               <img 
-                src="/src/assets/Company_logo/Spillbox.png" 
+                src="https://i.ibb.co/gLLtp3TN/Spillbox.png" 
                 alt="Spillbox Innovation Logo" 
                 className="h-10 mr-2 cursor-pointer"
               />

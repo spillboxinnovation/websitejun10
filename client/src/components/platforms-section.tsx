@@ -1,7 +1,7 @@
 const platforms = [
-  { name: "Amazon", logo: "/src/assets/platform_logos/Amazon.png" },
-  { name: "Flipkart", logo: "/src/assets/platform_logos/Flipkart.png" },
-  { name: "Meesho", logo: "/src/assets/platform_logos/Meesho.png" }
+  { name: "Amazon", logo: "https://i.ibb.co/2Yfw65C2/Amazon.png" },
+  { name: "Flipkart", logo: "https://i.ibb.co/FbFDbKY1/Flipkart.png" },
+  { name: "Meesho", logo: "https://i.ibb.co/hRGZG9WQ/Meesho.png" }
 ];
 
 export default function PlatformsSection() {

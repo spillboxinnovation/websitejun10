@@ -28,7 +28,7 @@ export default function AboutSection() {
           
           <div className="relative">
             <img 
-              src="src/assets/inventory.jpg" 
+              src="https://i.ibb.co/PvsbYPMX/inventory.jpg" 
               alt="Professional team working in modern office environment" 
               className="rounded-2xl shadow-xl w-full"
             />

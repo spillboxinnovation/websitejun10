@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2 flex flex-col items-start">
             <img
-              src="/src/assets/Company_logo/Spillbox.png"
+              src="https://i.ibb.co/gLLtp3TN/Spillbox.png"
               alt="Spillbox Innovation Logo"
               className="h-12 mb-4"
             />
