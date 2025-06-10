@@ -1,0 +1,168 @@
+Spillbox Innovation Pvt Ltd
+✅ Basic Info
+Company Name: Spillbox Innovation Pvt Ltd
+
+Founded: 2019
+
+Location: Chennai, Tamil Nadu
+
+Address:
+2/852, Opp Viveks Warehouse,
+Manapakkam, Mugalivakkam Main Rd,
+Mugalivakkam, Chennai, Tamil Nadu 600125
+
+Team Size: 25+ employees
+
+Key People:
+Sathya Rajesh – Managing Director
+LinkedIn: https://www.linkedin.com/in/sathya-rajesh-a0ab7620/
+Velusamy Nallusamy – Head Procurement & Operations
+LinkedIn: https://www.linkedin.com/in/velusamy-nallusamy-31240b31/
+
+🎨 Branding
+Color Palette
+Name	Hex Code	Use Case
+Primary Blue	#0f1464	Backgrounds, buttons, CTAs
+Highlight Red	#d82813	Only for accent highlights
+White	#ffffff	Text, contrast backgrounds
+
+Fonts
+Professional, modern sans-serif fonts:
+
+Primary: Inter, Poppins, or Open Sans
+
+Headings: Montserrat or DM Sans
+
+Body: Inter or Roboto
+
+🧱 Page Sections (In This Order)
+1. Hero Section
+Background: Blue (#0f1464)
+Text Color: White (#ffffff)
+
+Headline:
+Empowering Brands. Crafting Innovation.
+
+Subheading:
+We are home to premium niche brands in decor, rituals, education & lifestyle.
+
+CTA Buttons:
+
+"Explore Brands" (scrolls to brands section)
+
+"About Spillbox" (scrolls to About Us section)
+
+2. Our Brands (Cards Grid)
+1. Putrika
+Tagline: Timeless brass pieces for home and rituals.
+Link: https://www.amazon.in/stores/PUTRIKA/page/1719A047-9346-4C1A-9343-B288D8FA5373
+
+2. Pujalane
+Tagline: One-stop destination for authentic puja essentials.
+Link: https://pujalane.com/
+
+3. Djuize
+Tagline: Decor that makes your home beautiful.
+Link: https://www.amazon.in/stores/Djuize/Homepage/page/420426EE-03CB-4818-82D1-748BD25C5839
+
+4. Moongil
+Tagline: Cook better with quality & durable cookware.
+Link: https://www.amazon.in/stores/page/113FE3DE-39CF-45B7-B411-57E8632206C1
+
+5. Jobo
+Tagline: Premium leather, built to last.
+Link: https://www.flipkart.com/bags-wallets-belts/handbags-clutches/pouches-and-potlis/jobo~brand/pr?sid=reh%2Cihu%2C6vv&marketplace=FLIPKART&otracker=product_breadCrumbs_JoBo+Pouches+and+Potlis&p%5B%5D=facets.brand%255B%255D%3DJoBo
+
+6. Abica
+Tagline: Smart tools for teachers & smart kids.
+Link: https://www.flipkart.com/search?q=abica&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off
+
+7. Paracraft
+Tagline: Strong, stylish, and ready for adventure.
+Link: https://www.amazon.in/stores/Paracraft/page/3D9030BC-3B08-4FE6-81B3-33D991FBA719
+
+3. About Us
+Content:
+Established in 2019 in Chennai, Spillbox Innovation Pvt Ltd houses multiple niche brands offering a wide spectrum of high-quality products ranging from brass decor, homeware, and puja essentials to education kits and premium leather goods. We are supported by a 25+ member team and serve customers globally.
+
+Address:
+2/852, Opp Viveks Warehouse,
+Manapakkam, Mugalivakkam Main Rd,
+Mugalivakkam, Chennai, Tamil Nadu 600125
+
+4. Product Categories
+Brass Pooja Essentials
+
+Home Décor & Utility
+
+Leather Goods
+
+Educational Kits
+
+Cookware
+
+DIY Paracord Tools
+
+(Use icons or product thumbnails)
+
+5. Platforms We Sell At
+Logos or names to be shown:
+
+Amazon India
+
+Flipkart
+
+Meesho
+
+Amazon US
+
+Amazon Australia
+
+Other international marketplaces
+
+6. Meet the People
+Sathya Rajesh
+Managing Director
+LinkedIn: https://www.linkedin.com/in/sathya-rajesh-a0ab7620/
+
+Velusamy Nallusamy
+Head Procurement & Operations
+LinkedIn: https://www.linkedin.com/in/velusamy-nallusamy-31240b31/
+
+(Add profile cards with name, title, photo, and LinkedIn link)
+
+7. Wholesale Section
+Title: Wholesale Opportunities
+
+Content:
+We offer bulk pricing, fast delivery, and support for businesses looking to stock or resell our wide range of products. Trusted by wholesalers across India.
+
+Shop Address (Google Maps): https://g.co/kgs/2CShm8m
+Wholesale Profile (IndiaMART): https://www.indiamart.com/spillboxinnovation/
+
+8. Our Clients
+Display client logos or placeholders in a grid. Add a short caption like:
+"Trusted by businesses across India & beyond."
+
+9. Testimonials & Reviews
+Format: Card or carousel
+Include:
+
+Client name
+
+Product used
+
+Quote/review
+
+Platform (Amazon, Flipkart, etc.)
+Use real or placeholder content pulled from store reviews.
+
+10. Footer
+Company Logo
+
+Quick links: Brands | About | Wholesale | Contact
+
+Social media: LinkedIn, Amazon, Flipkart
+
+Copyright:
+© 2025 Spillbox Innovation Pvt Ltd. All rights reserved.
