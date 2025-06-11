@@ -8,6 +8,7 @@ import NotFound from "@/pages/not-found";
 import JoinUs from "@/components/JoinUs";
 import { useEffect } from "react";
 import { useLocation } from "wouter";
+import { Helmet } from "react-helmet-async";
 
 function Router() {
   return (
@@ -38,6 +39,23 @@ export default function App() {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Spillbox Innovation – Premium Brands, Wholesale, and E-commerce in Chennai, India
+        </title>
+        <meta
+          name="description"
+          content="Spillbox Innovation Pvt Ltd: Home to premium brands in decor, rituals, education, cookware, and leather. Shop online or visit our Chennai store. Wholesale and retail opportunities available. Brands: Putrika, Pujalane, Djuize, Moongil, Jobo, Abica, Paracraft."
+        />
+        <meta
+          name="keywords"
+          content="Spillbox, e-commerce Chennai, wholesale Tamil Nadu, premium brands India, decor brands, pooja essentials, cookware, leather goods, educational kits, shop in Mugalivakkam, Manapakkam, Chennai, Tamil Nadu, Amazon brands, Flipkart brands, D2C, retail, B2B, IndiaMART, shop address, consumer brands, buy online, Chennai store"
+        />
+        <meta property="og:title" content="Spillbox Innovation – Premium Brands & Wholesale in Chennai" />
+        <meta property="og:description" content="Shop premium brands or join our wholesale program. Visit our Chennai store or buy online. Decor, rituals, cookware, leather, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.thespillbox.com/" />
+      </Helmet>
       <QueryClientProvider client={queryClient}>
         <TooltipProvider>
           <Toaster />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import { Helmet } from "react-helmet-async";
 
 function JobForm({ role }: { role: string }) {
   return (
@@ -122,6 +123,23 @@ export default function JoinUs() {
 
   return (
     <>
+      <Helmet>
+        <title>
+          Careers at Spillbox Innovation – E-commerce Jobs, Sales, Design & Photography in Chennai, India
+        </title>
+        <meta
+          name="description"
+          content="Explore job opportunities at Spillbox Innovation Pvt Ltd – a leading e-commerce and consumer brands company in Chennai, Tamil Nadu. We're hiring for B2B sales, product design, product photography, and more. Join our team and work with top brands like Putrika, Pujalane, Djuize, Moongil, Jobo, Abica, and Paracraft. Wholesale, retail, and creative roles available. Office & shop at Mugalivakkam, Manapakkam, Chennai."
+        />
+        <meta
+          name="keywords"
+          content="Spillbox careers, e-commerce jobs Chennai, sales executive jobs, product designer jobs, product photographer jobs, hiring in Chennai, India, Tamil Nadu, Mugalivakkam, Manapakkam, wholesale jobs, retail jobs, Amazon jobs, Flipkart jobs, D2C brands, consumer brands, Putrika, Pujalane, Djuize, Moongil, Jobo, Abica, Paracraft, shop address, office jobs, creative jobs, startup jobs, apply online, work with us"
+        />
+        <meta property="og:title" content="Careers at Spillbox Innovation – E-commerce & Brand Jobs in Chennai" />
+        <meta property="og:description" content="Join Spillbox Innovation in Chennai, Tamil Nadu. Sales, design, photography, and e-commerce jobs. Work with top brands and grow your career in a fast-growing company." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.thespillbox.com/joinus" />
+      </Helmet>
       <Navigation />
       <section className="max-w-4xl mx-auto py-24 px-4">
         <h2 className="text-3xl font-bold mb-4 text-center">Join Us</h2>
