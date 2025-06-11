@@ -1,8 +1,23 @@
+import { useLocation } from "wouter";
+
 export default function Footer() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+  const [location, navigate] = useLocation();
+
+  const handleNav = (sectionId: string) => {
+    const hash = `#${sectionId}`;
+    const homePaths = ["/", "/#brands", "/#about", "/#wholesale", "/#team", "/#contact", "/#joinus"];
+    const isHome = homePaths.some((p) => location === p || location === "/" || location.startsWith("/#"));
+
+    if (isHome) {
+      if (window.location.hash !== hash) {
+        window.location.hash = hash;
+      }
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 0);
+    } else {
+      navigate(`/${hash}`);
     }
   };
 
@@ -24,27 +39,33 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold font-montserrat mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <button 
-                onClick={() => scrollToSection('brands')}
-                className="block text-gray-600 hover:text-black transition-colors text-left"
+              <button
+                onClick={() => handleNav('brands')}
+                className="block text-gray-600 hover:text-black transition-colors text-left w-full text-left"
               >
                 Brands
               </button>
-              <button 
-                onClick={() => scrollToSection('about')}
-                className="block text-gray-600 hover:text-black transition-colors text-left"
+              <button
+                onClick={() => handleNav('about')}
+                className="block text-gray-600 hover:text-black transition-colors text-left w-full text-left"
               >
                 About
               </button>
-              <button 
-                onClick={() => scrollToSection('wholesale')}
-                className="block text-gray-600 hover:text-black transition-colors text-left"
+              <button
+                onClick={() => handleNav('wholesale')}
+                className="block text-gray-600 hover:text-black transition-colors text-left w-full text-left"
               >
                 Wholesale
               </button>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="block text-gray-600 hover:text-black transition-colors text-left"
+              <button
+                onClick={() => handleNav('team')}
+                className="block text-gray-600 hover:text-black transition-colors text-left w-full text-left"
+              >
+                Team
+              </button>
+              <button
+                onClick={() => handleNav('contact')}
+                className="block text-gray-600 hover:text-black transition-colors text-left w-full text-left"
               >
                 Contact
               </button>

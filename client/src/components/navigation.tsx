@@ -1,24 +1,27 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Link, useLocation, useNavigate } from "wouter";
+import { Link, useLocation } from "wouter";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [location, navigate] = useLocation();
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-    setIsMenuOpen(false);
-  };
-
   const handleNav = (sectionId: string) => {
-    if (location !== "/") {
-      navigate(`/#${sectionId}`);
+    const hash = `#${sectionId}`;
+    const homePaths = ["/", "/#brands", "/#about", "/#wholesale", "/#team", "/#contact", "/#joinus"];
+    const isHome = homePaths.some((p) => location === p || location === "/" || location.startsWith("/#"));
+
+    if (isHome) {
+      if (window.location.hash !== hash) {
+        window.location.hash = hash;
+      }
+      // Always scroll (in case hash doesn't trigger)
+      setTimeout(() => {
+        const el = document.getElementById(sectionId);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 0);
     } else {
-      scrollToSection(sectionId);
+      navigate(`/${hash}`);
     }
     setIsMenuOpen(false);
   };
@@ -38,42 +41,12 @@ export default function Navigation() {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            <button 
-              onClick={() => handleNav('brands')}
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              Brands
-            </button>
-            <button 
-              onClick={() => handleNav('about')}
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              About
-            </button>
-            <button 
-              onClick={() => handleNav('wholesale')}
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              Wholesale
-            </button>
-            <button 
-              onClick={() => handleNav('team')}
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              Team
-            </button>
-            <button 
-              onClick={() => handleNav('contact')}
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              Contact
-            </button>
-            <Link 
-              to="/joinus"
-              className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium"
-            >
-              Join us
-            </Link>
+            <button onClick={() => handleNav('brands')} className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">Brands</button>
+            <button onClick={() => handleNav('about')} className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">About</button>
+            <button onClick={() => handleNav('wholesale')} className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">Wholesale</button>
+            <button onClick={() => handleNav('team')} className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">Team</button>
+            <button onClick={() => handleNav('contact')} className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">Contact</button>
+            <Link to="/joinus" className="text-spillbox-dark hover:text-spillbox-blue transition-colors font-medium">Join us</Link>
           </div>
           
           <Button
