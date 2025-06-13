@@ -116,6 +116,137 @@ const JOBS = [
     ),
     formRole: "Product Designer",
   },
+  {
+    key: "creative-director",
+    title: "🎨 Creative Director",
+    openings: 1,
+    details: (
+      <>
+        <p className="mb-2"><b>Location:</b> Mugalivakkam, Chennai<br />
+        <b>Type:</b> Full-time | On-site</p>
+        <p className="mb-2"><b>About the Role:</b> We’re looking for a visionary Creative Director to lead branding, design, storytelling, and campaigns across all our brands—Putrika, Pujalane, Jobo, Djuize, Moongil, Abica, and Paracraft. This role will shape how each brand speaks, looks, and connects with its audience.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Lead creative strategy, campaign development, and content direction.</li>
+          <li>Manage internal creative teams (designers, photographers, videographers).</li>
+          <li>Ensure brand consistency across packaging, digital, social, and advertising.</li>
+          <li>Oversee photoshoots, video campaigns, and seasonal marketing visuals.</li>
+          <li>Collaborate with marketing, product, and e-commerce teams.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>4+ years in a creative leadership role, preferably in D2C/e-commerce.</li>
+          <li>Strong design sensibility and brand vision.</li>
+          <li>Fluent in Adobe Creative Suite, Canva, and creative collaboration tools.</li>
+          <li>Experience across product, fashion, or lifestyle brands is a plus.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Creative Director",
+  },
+  {
+    key: "digital-marketing",
+    title: "📢 Digital Marketing Expert",
+    openings: 1,
+    details: (
+      <>
+        <p className="mb-2"><b>Location:</b> Mugalivakkam, Chennai<br />
+        <b>Type:</b> Full-time | On-site</p>
+        <p className="mb-2"><b>About the Role:</b> We're hiring a Digital Marketing Expert to manage and grow our online presence across marketplaces and social platforms. You’ll work closely with the sales and creative teams to launch digital campaigns and scale online sales.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Run ads and campaigns across Meta, Google, and Amazon.</li>
+          <li>Analyze campaign metrics, ROAS, and SEO performance.</li>
+          <li>Manage social media scheduling, influencer marketing, and email campaigns.</li>
+          <li>Optimize listings and content for Flipkart, Amazon, Meesho, and international platforms.</li>
+          <li>Stay ahead of trends, competitor strategies, and algorithm changes.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>2–4 years of hands-on experience with digital marketing tools and ad platforms.</li>
+          <li>Strong grip on Google Analytics, Meta Business Suite, and Amazon Ads.</li>
+          <li>Basic graphic/content creation skills are a plus.</li>
+          <li>Must love working with fast-moving consumer brands.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Digital Marketing Expert",
+  },
+  {
+    key: "management-interns",
+    title: "🎓 Management Interns",
+    openings: 3,
+    details: (
+      <>
+        <p className="mb-2"><b>Location:</b> Mugalivakkam, Chennai<br />
+        <b>Type:</b> Internship | Full-time | On-site</p>
+        <p className="mb-2"><b>About the Role:</b> Join Spillbox as a Management Intern and rotate across departments like marketing, design, sales, operations, and product development. You’ll learn how multi-brand consumer companies operate from the inside.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Assist team leads with research, planning, reporting, and coordination.</li>
+          <li>Get trained on tools like Notion, Canva, IndiaMART, Flipkart Seller Hub, and more.</li>
+          <li>Take ownership of small projects or process improvements.</li>
+          <li>Present learnings to leadership at the end of your internship.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Recent graduates or final-year students in Business, Design, Commerce, or related fields.</li>
+          <li>Excellent communication, curiosity, and problem-solving mindset.</li>
+          <li>Internship duration: 3–6 months (extendable or absorbable based on performance).</li>
+          <li>Stipend and certificate provided.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Management Intern",
+  },
+  {
+    key: "data-analyst",
+    title: "📊 Data Analyst",
+    openings: 1,
+    details: (
+      <>
+        <p className="mb-2"><b>Location:</b> Mugalivakkam, Chennai<br />
+        <b>Type:</b> Full-time | On-site</p>
+        <p className="mb-2"><b>About the Role:</b> We’re looking for a Data Analyst to turn our multi-channel sales, marketing, and operations data into actionable insights. You'll help optimize pricing, inventory, ad spend, and customer experience across platforms.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Collect and clean data from Amazon, Flipkart, IndiaMART, and internal dashboards.</li>
+          <li>Build weekly and monthly performance reports.</li>
+          <li>Analyze customer behavior, inventory movement, and ad campaigns.</li>
+          <li>Work with leadership to drive data-backed decision-making.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>1–3 years of experience in data analysis, preferably in retail or e-commerce.</li>
+          <li>Strong Excel/Google Sheets skills; knowledge of SQL, Python, or Power BI is a plus.</li>
+          <li>Should enjoy working with numbers and spotting trends.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Data Analyst",
+  },
+  {
+    key: "key-account-manager",
+    title: "🤝 Key Account Manager (E-commerce & Wholesale)",
+    openings: 2,
+    details: (
+      <>
+        <p className="mb-2"><b>Location:</b> Mugalivakkam, Chennai<br />
+        <b>Type:</b> Full-time | On-site</p>
+        <p className="mb-2"><b>About the Role:</b> As a Key Account Manager, you’ll own relationships with major B2B buyers, wholesale clients, or platform managers (Amazon, Flipkart, etc.). You’ll ensure sales growth, customer satisfaction, and account health across assigned brands.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Act as the single point of contact for high-value clients and marketplace accounts.</li>
+          <li>Monitor pricing, stock levels, promotions, and listings.</li>
+          <li>Resolve issues related to delivery, returns, or disputes quickly and professionally.</li>
+          <li>Strategize account growth with the marketing and sales team.</li>
+          <li>Generate insights from account performance data.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>1–4 years of experience in account management, sales coordination, or client servicing.</li>
+          <li>Good understanding of marketplaces and retail distribution.</li>
+          <li>Strong organizational and relationship-building skills.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Key Account Manager",
+  },
 ];
 
 export default function JoinUs() {
@@ -158,13 +289,15 @@ export default function JoinUs() {
           We believe in empowering our team with hands-on learning, exposure to real-world business challenges, and opportunities to grow with us. 
           Join Spillbox for a collaborative environment, industry-standard salaries, and a chance to shape the future of consumer brands.
         </p>
-        <div className="flex flex-col md:flex-row gap-4 justify-center mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 justify-center mb-8">
           {JOBS.map((job) => (
             <button
               key={job.key}
               onClick={() => setSelected(job.key)}
               className={`flex-1 border rounded-lg px-6 py-4 font-semibold text-left shadow hover:bg-spillbox-blue/10 transition ${
-                selected === job.key ? "border-spillbox-blue bg-spillbox-blue/5" : "border-gray-200 bg-white"
+                selected === job.key
+                  ? "border-spillbox-blue bg-blue-100/70" // highlighted with transparent blue
+                  : "border-gray-200 bg-white"
               }`}
             >
               <span className="block">{job.title}</span>
