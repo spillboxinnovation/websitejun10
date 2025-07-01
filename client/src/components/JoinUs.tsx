@@ -247,6 +247,38 @@ const JOBS = [
     ),
     formRole: "Key Account Manager",
   },
+  {
+    key: "graphic-designer",
+    title: "🎨 Graphic Designer",
+    openings: 2,
+    details: (
+      <>
+        <p className="mb-2">
+          <b>Location:</b> Mugalivakkam, Chennai<br />
+          <b>Type:</b> Full-time | On-site<br />
+          <b>Brands:</b> All Spillbox brands (Putrika, Pujalane, Jobo, Djuize, Moongil, Abica, Paracraft)<br />
+          <b>Call / Whatsapp:</b> <a href="tel:+919841753567" className="text-spillbox-blue underline">+91 9841753567</a>
+        </p>
+        <p className="mb-2"><b>About the Role:</b> We are seeking a Graphic Designer to join our growing in-house creative team. You will work across multiple brands, creating high-impact designs for product listings, packaging, ads, print materials, and digital platforms. This is a hands-on role where visual storytelling meets commercial design.</p>
+        <ul className="list-disc ml-5 mb-2">
+          <li>Design Amazon/Flipkart product images, A+ content, and listing graphics.</li>
+          <li>Create marketing creatives for digital campaigns, newsletters, and social media.</li>
+          <li>Support packaging and label design aligned with brand identity.</li>
+          <li>Assist in brand guideline development and visual language consistency.</li>
+          <li>Collaborate with product, marketing, and photography teams on visual campaigns.</li>
+        </ul>
+        <p className="mb-2"><b>Who Can Apply:</b></p>
+        <ul className="list-disc ml-5 mb-2">
+          <li><b>Freshers:</b> Should have a strong design portfolio or academic projects that show creativity, layout skills, and brand understanding.</li>
+          <li><b>Experienced (1–3 years):</b> Prior experience with e-commerce design, packaging, or consumer brands is a plus.</li>
+          <li>Proficiency in Adobe Illustrator, Photoshop, and Canva required; knowledge of After Effects or video editing is a bonus.</li>
+          <li>Strong eye for color, typography, layout, and user-focused design.</li>
+          <li>Ability to manage multiple design projects and tight timelines.</li>
+        </ul>
+      </>
+    ),
+    formRole: "Graphic Designer",
+  },
 ];
 
 export default function JoinUs() {
