@@ -16,7 +16,7 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h3 className="text-2xl font-bold font-montserrat mb-6">Contact Information</h3>
-            
+
             <div className="space-y-6">
               <div className="flex items-start">
                 <i className="fas fa-map-marker-alt text-spillbox-red mr-4 mt-1"></i>
@@ -31,12 +31,25 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start">
+                <i className="fas fa-phone-alt text-spillbox-red mr-4 mt-1"></i>
+                <div>
+                  <div className="font-semibold mb-1">Phone</div>
+                  <a
+                    href="tel:+919600431141"
+                    className="text-white/90 hover:text-white transition-colors underline"
+                  >
+                    +91 9600431141
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start">
                 <i className="fas fa-store text-spillbox-red mr-4 mt-1"></i>
                 <div>
                   <div className="font-semibold mb-1">Visit Our Store</div>
-                  <a 
-                    href="https://g.co/kgs/2CShm8m" 
-                    target="_blank" 
+                  <a
+                    href="https://g.co/kgs/2CShm8m"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/90 hover:text-white transition-colors underline"
                   >
@@ -49,9 +62,9 @@ export default function ContactSection() {
                 <i className="fas fa-briefcase text-spillbox-red mr-4 mt-1"></i>
                 <div>
                   <div className="font-semibold mb-1">Wholesale Inquiries</div>
-                  <a 
-                    href="https://www.indiamart.com/spillboxinnovation/" 
-                    target="_blank" 
+                  <a
+                    href="https://www.indiamart.com/spillboxinnovation/"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-white/90 hover:text-white transition-colors underline"
                   >
@@ -65,17 +78,17 @@ export default function ContactSection() {
                 <div>
                   <div className="font-semibold mb-1">Connect on LinkedIn</div>
                   <div className="space-y-1">
-                    <a 
-                      href="https://www.linkedin.com/in/sathya-rajesh-a0ab7620/" 
-                      target="_blank" 
+                    <a
+                      href="https://www.linkedin.com/in/sathya-rajesh-a0ab7620/"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="block text-white/90 hover:text-white transition-colors underline"
                     >
                       Sathya Rajesh - Managing Director
                     </a>
-                    <a 
-                      href="https://www.linkedin.com/in/velusamy-nallusamy-31240b31/" 
-                      target="_blank" 
+                    <a
+                      href="https://www.linkedin.com/in/velusamy-nallusamy-31240b31/"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="block text-white/90 hover:text-white transition-colors underline"
                     >
@@ -89,13 +102,13 @@ export default function ContactSection() {
 
           <div>
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl overflow-hidden">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3452538000003!2d80.15000000000001!3d13.010000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzM2LjAiTiA4MMKwMDknMDAuMCJF!5e0!3m2!1sen!2sin!4v0!5m2!1sen!2sin" 
-                width="100%" 
-                height="400" 
-                style={{border:0}} 
-                allowFullScreen 
-                loading="lazy" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3452538000003!2d80.15000000000001!3d13.010000000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzM2LjAiTiA4MMKwMDknMDAuMCJF!5e0!3m2!1sen!2sin!4v0!5m2!1sen!2sin"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-full"
               ></iframe>
